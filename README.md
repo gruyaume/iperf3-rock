@@ -2,6 +2,8 @@
 
 iPerf is a speed test tool for TCP, UDP and SCTP.
 
+This container image contains the official iPerf3 binary.
+
 ## Usage
 
 ```shell
