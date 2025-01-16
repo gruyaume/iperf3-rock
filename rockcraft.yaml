@@ -1,6 +1,6 @@
 name: iperf3
 build-base: ubuntu@24.04
-base: bare
+base: ubuntu@24.04
 version: '3.17.1'
 summary: iPerf is a speed test tool for TCP, UDP and SCTP.
 description: iPerf is a speed test tool for TCP, UDP and SCTP.
@@ -16,7 +16,3 @@ parts:
         source: https://github.com/esnet/iperf.git
         source-type: git
         source-tag: 3.17.1
-        stage-packages:
-          - ca-certificates_data
-          - libc6_libs
-          - base-files_lib
