@@ -16,3 +16,7 @@ parts:
         source: https://github.com/esnet/iperf.git
         source-type: git
         source-tag: 3.17.1
+        stage-packages:
+            - iproute2
+            - iptables
+            - iputils-ping
