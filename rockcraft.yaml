@@ -20,3 +20,4 @@ parts:
             - iproute2
             - iptables
             - iputils-ping
+            - ethtool
